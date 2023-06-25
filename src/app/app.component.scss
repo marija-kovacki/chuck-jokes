@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+img {
+  position: relative;
+  animation: 10s linear 1s infinite running kick;
+}
+
+@keyframes kick {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(110vw);
+ }
+}
+
